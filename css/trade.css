@@ -1,0 +1,426 @@
+.navbar{
+    background-color: rgb(0, 0, 0);
+}
+.nav-link{
+    text-transform:uppercase;
+    color: gold;
+}
+.nav-link.active{
+    color: rgb(248, 93, 188) !important;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    padding-top: 35px;
+}
+.unknown span{
+    line-height: 1;
+}
+.unknown .phone a,
+.unknown .clock{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+.unknown .email a,
+.unknown .date{
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+}
+.unknown a{
+    text-decoration: none;
+}
+.unknown a:hover{
+    text-decoration: underline;
+}
+.unknown i{
+    color: purple;
+}
+.social div{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100%;
+    height: 36px;
+    width: 36px;
+    background-color: gold;
+    margin-right: 10px;
+}
+.social i{
+    color: rgb(0, 0, 0);
+}
+.prpl {
+    background-image: url(/img/Aesthetic-Purple-Wallpaper-1080p.png);
+}
+.prpl1 {
+    background-image: url(/img/Aesthetic-Purple-Wallpaper-for-Windows.png);
+}
+.prpl2 {
+    background-image: url(/img/HD-Wallpaper-Aesthetic-Purple.png);
+}
+
+.prpl,
+.prpl1,
+.prpl2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:736px;
+    background-color: rgba(0, 0, 0, 0.697);
+    background-blend-mode: multiply;
+}
+.carousel-fade .carousel-indicators [data-bs-target] {
+    background-color: #ffffff;
+}
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.carousel-caption{
+    color: rgb(0, 255, 242);
+    top: 50%;
+    transform: translateY(-50%);
+    display: block !important;
+    left: 20px;
+    right: 20px;
+}
+.karusel .wp{
+    font-size: 38px;
+    font-weight: 900;
+}
+.karusel .gg{
+    font-size: 20px;
+    font-weight: 400;
+}
+.karusel .btn{
+    font-weight: bolder;
+}
+.six h2,
+.blue h2,
+.feedback h2,
+.idkwow h2,
+.contactme h2,
+.kartinki h2,
+.magazin h2,
+.akardion h2,
+.contactus h2{
+    font-weight: 800;
+    font-size: 28px;
+    color: rgba(0, 255, 242);
+}
+.six h4,
+.footer-content h3{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(0, 255, 242);
+}
+.six p,
+.idkwow p,
+.magazin p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(158, 66, 152);
+}
+.six .fa-solid{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(171, 4, 171, 0.777);
+}
+.six .six1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    max-width: 760px;
+}
+.six .btn{
+    font-weight: bolder;
+}
+@media screen and (min-width: 390px) {
+    .six .btn{
+        margin-right: 20px;
+    }
+}
+.blue{
+    background-color: blueviolet;
+}
+.feedback{
+    background-image: url(/img/1672671906_foni-club-p-oboi-zxc-11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.697);
+    background-blend-mode: multiply;
+}
+@media screen and (max-width: 456px) {
+    .feedback{
+        height: 600px;
+    }
+}
+.blue h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 255, 242);
+}
+.blue p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(255, 0, 217);
+}
+.blue img{
+    height: 90px;
+}
+/* .feedback blockquote p::before {
+    font: var(--fa-font-solid);
+    content: "\f10d";
+    font-size: 20px;
+    top: 0;
+    left: 0;
+  } */
+.feedback p,
+.contactus p{
+    color: white;
+}
+.owl-carousel .owl-item img{
+    width: 100px;
+    margin: 0 auto;
+}
+.feedback .nickyminaj{
+    color: rgb(0, 255, 242);
+    font-size: 12px;
+    font-weight: 400;
+}
+.nickyminaj a{
+    text-decoration: none;
+    color: rgb(0, 255, 242);
+}
+.nickyminaj a:hover{
+    text-decoration: underline;
+}
+.contactme{
+    background-color: blueviolet;
+}
+.contactme p,
+.kartinki p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 0, 217);
+}
+
+.chto{
+    background-image: url(/img/boobs.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 296px;
+}
+.kartinka{
+    height: 296px;
+    margin-top: 230px;
+    background-color: rgb(255, 255, 255);
+    transition:.8s;
+}
+.chto:hover .kartinka{
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.devochki img{
+    filter: brightness(50%);
+    transition: 1s;
+    width:250px;
+    height:192px;
+    }
+.devochki img:hover{
+    opacity:1;
+    filter:brightness(100%);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.magazin .btn{
+    background-color: purple;
+    font-weight: bolder;
+}
+.magazin .mda{
+    height: 296px;
+    transition:.8s;
+}
+.mda1{
+    background-image: url(/img/red.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 296px;
+    background-color: rgba(0, 0, 0, 0.697);
+    background-blend-mode: multiply;
+}
+.mda2{
+    background-image: url(/img/redo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 296px;
+    background-color: rgba(0, 0, 0, 0.697);
+    background-blend-mode: multiply;
+}
+.mda3{
+    background-image: url(/img/pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 296px;
+    background-color: rgba(0, 0, 0, 0.697);
+    background-blend-mode: multiply;
+}
+.mda1:hover .mdo,
+.mda2:hover .mdo,
+.mda3:hover .mdo,
+.mda1:hover .mde,
+.mda2:hover .mde,
+.mda3:hover .mde{
+    cursor: pointer;
+    margin-top: 0px;
+    opacity: 1 !important;
+}
+.mdo{
+    transition:.8s;
+    margin-top: 20px;
+    width: 100%;
+}
+.mde{
+    opacity: 0;
+    transition: .8s;
+}
+.magazin h3{
+    font-weight: 800;
+    font-size: 28px;
+    color: rgb(217, 0, 255);
+}
+.mde{
+    color: rgb(0, 229, 255) !important ;
+}
+.voprosik{
+    width: 24px;
+    height: 24px;
+    border-color: rgb(101, 117, 142);
+    border-width: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+    background-color: black;
+    color: white;
+    font-size: 13px !important;
+}
+.accordion-body{
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(158, 66, 152);
+}
+.accordion-button{
+    font-size: 16px;
+    color: aqua;
+    font-weight: bold;
+}
+.contactus{
+    background-color: rgb(185, 15, 185);
+}
+.contactus .contactus1{
+        color: rgb(0, 229, 255);
+        padding: 12px;
+        border-color: white;
+        border: 2px;
+        border-style: solid;
+        border-radius: 100%;
+        background-color: rgb(255, 0, 238);
+}
+.contactus a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.contactus a:hover{
+    text-decoration: underline;
+}
+.contactus .form{
+    background-color: rgba(219, 16, 219, 0.29);
+    width: 100%;
+}
+.contactus .btn {
+    font-weight: bold;
+}
+.footer .footer-content{
+    background: #3c3c3c;
+    color: rgb(255, 255, 255);
+    padding: 45px 0;
+    padding-bottom: 45px;
+    font-size: 14px;
+}
+.footer .socialmedia{
+    background: #2b2f35;
+    color: rgba(255, 255, 255, 0.49);
+    font-size: 13px;
+    font-weight: 400;
+}
+.footer-content span{
+    font-weight: bold;
+    color:rgba(255, 255, 255, 0.7);
+}
+.socialmedia p{
+    color:rgba(255, 255, 255, 0.7);
+}
+.footer .phone a,
+.footer .email a,
+.footer .address{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration:none;
+    color: rgba(255, 255, 255, 0.7);
+}
+.socialmedia a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.241);
+}
+.socialmedia a:hover,
+.footer .phone a:hover,
+.footer .email a:hover,
+.footer .xd:hover{
+    text-decoration: underline;
+    color: white;
+    transition: 1s;
+}
+.footer .xd,
+.socialmedia p{
+    color: rgba(255, 255, 255, 0.241);
+    text-decoration: none;
+}
+.footer .xd:hover{
+    text-decoration: underline;
+}
+.xd1 div{
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 100%;
+        height: 24px;
+        width: 24px;
+        background-color: rgba(255, 255, 255, 0.7);
+        margin-right: 10px;
+        border-color: rgb(255, 0, 255);
+
+}
+.xd1 i{
+    color: rgb(238, 0, 255);
+}
+.fa-arrow-up-long{
+    color: rgb(29, 247, 232) !important;
+    font-size: 16px !important;
+    font-weight: 400;
+    background-color: rgb(255, 0, 234);
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
