@@ -121,6 +121,13 @@ body{
     font-size: 16px;
     color: rgb(158, 66, 152);
 }
+.idkwow a{
+    text-decoration: none;
+    color: rgb(255, 0, 217);
+}
+.idkwow a:hover{
+    text-decoration: underline;
+}
 .six .fa-solid{
     font-size: 50px;
     font-weight: 600;
@@ -206,9 +213,15 @@ body{
     font-weight: 400;
     color: rgb(255, 0, 217);
 }
-
+.kartinki a{
+    text-decoration: none;
+    color: rgb(255, 0, 217);
+}
+.kartinki a:hover{
+    text-decoration: underline;
+}
 .chto{
-    background-image: url(/img/meow.png);
+    background-image: url(/img/boobs.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
